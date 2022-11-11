@@ -1,0 +1,15 @@
+@import "./fonts.scss";
+@import "./normalize.scss";
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+[class*="__container"] {
+	margin: 0 auto;
+	width: 1230px;
+	padding: 0 15px;
+	@media (min-width: 1600px) {
+		width: 1500px;
+	}
+}

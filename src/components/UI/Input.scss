@@ -1,0 +1,11 @@
+.my-inp {
+	padding: 12px;
+	font-weight: 700;
+	border-radius: 10px;
+	display: block;
+	width: 100%;
+	background-color: white;
+	&::placeholder {
+		color: #b7bac1;
+	}
+}
