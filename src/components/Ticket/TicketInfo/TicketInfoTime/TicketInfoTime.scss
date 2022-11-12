@@ -1,0 +1,90 @@
+.time-info {
+	width: 531px;
+}
+.panel-time {
+	display: flex;
+	column-gap: 30px;
+	&__start {
+	}
+	&__path {
+	}
+	&__end {
+	}
+}
+.date-panel {
+	margin-top: 5px;
+	&__date {
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 16px;
+
+		color: #5c5c5c;
+	}
+	&__time {
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 28px;
+		margin-bottom: 8px;
+		color: #232323;
+	}
+	&__town {
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 16px;
+
+		color: #5c5c5c;
+	}
+}
+.path-panel {
+	&__names {
+		width: 108%;
+		position: relative;
+		left: -10px;
+		margin-bottom: 4px;
+		display: flex;
+		justify-content: space-between;
+		span {
+			font-size: 14px;
+			line-height: 140%;
+			color: #b7bac1;
+		}
+	}
+	&__line {
+		display: block;
+		position: relative;
+		&::before {
+			content: "";
+			display: block;
+			position: absolute;
+			width: 8px;
+			height: 8px;
+			background: #c4c4c4;
+			top: 50%;
+			left: 0;
+			transform: translateY(-50%);
+			border-radius: 50%;
+		}
+		&::after {
+			content: "";
+			display: block;
+			position: absolute;
+			width: 8px;
+			height: 8px;
+			background: #c4c4c4;
+			top: 50%;
+			right: 0;
+			transform: translateY(-50%);
+			border-radius: 50%;
+		}
+		background-color: #b7bac1;
+		height: 1px;
+		width: 270px;
+	}
+	&__num {
+		margin-top: 10px;
+		text-align: center;
+		font-size: 14px;
+		line-height: 140%;
+		color: #b7bac1;
+	}
+}

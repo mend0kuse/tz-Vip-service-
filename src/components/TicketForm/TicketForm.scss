@@ -7,8 +7,43 @@
 		border-radius: 15px 15px 0px 0px;
 		display: flex;
 		column-gap: 25px;
-		label {
-			flex-basis: 25%;
+	}
+	&__bottom {
+		padding: 23px 29px;
+	}
+}
+
+.bottom-form {
+	&__search {
+		margin-left: auto;
+	}
+}
+
+.top-form {
+	label {
+		flex-basis: 25%;
+		position: relative;
+		.calendar {
+			position: absolute;
+			bottom: 12px;
+			left: 12px;
+			cursor: pointer;
 		}
 	}
+	&__start-date {
+		padding-left: 35px !important;
+	}
+	&__end-date {
+		padding-left: 35px !important;
+	}
+	&__text {
+		color: white;
+		font-size: 11px;
+		line-height: 13px;
+	}
+}
+.error {
+	color: white;
+	font-weight: 700;
+	margin-left: 20px;
 }

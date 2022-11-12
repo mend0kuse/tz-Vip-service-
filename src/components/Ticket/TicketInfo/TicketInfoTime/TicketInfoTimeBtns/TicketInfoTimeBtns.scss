@@ -1,0 +1,24 @@
+
+.buttons-time {
+	display: flex;
+	align-items: center;
+	column-gap: 25px;
+	margin-top: 35px;
+	&__item {
+		display: block;
+		background: #ffffff;
+		border: 1px solid #b7bac1;
+		border-radius: 10px;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 21px;
+		color: #5c5c5c;
+		padding: 5px;
+		transition: 0.2s linear all;
+	}
+	&__item.active {
+		background: #dde3ee;
+		color: #232323;
+		transform: scale(1.1);
+	}
+}

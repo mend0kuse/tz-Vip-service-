@@ -4,7 +4,7 @@ export interface ITicket {
 	startTown: string;
 	endTown: string;
 	startDate: Date;
-	endDate: Date;
+	endDate: boolean | Date;
 }
 
 export interface ITiсketContext {

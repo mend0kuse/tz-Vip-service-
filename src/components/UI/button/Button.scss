@@ -1,0 +1,14 @@
+.my-btn {
+	background: #5c87db;
+	border-radius: 10px;
+	color: white;
+	display: block;
+	padding: 15px 30px;
+	transition: 0.2s linear all;
+	&:disabled {
+		background: #b7bac1;
+	}
+	&:not([disabled]):hover {
+		background: #3e67b7;
+	}
+}

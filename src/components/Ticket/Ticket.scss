@@ -1,0 +1,46 @@
+.ticket {
+	width: 980px;
+	display: flex;
+	box-shadow: 0px 0px 14px rgba(112, 121, 153, 0.3);
+	border-radius: 15px;
+	&__wrapper {
+		padding: 0 !important;
+		max-width: 790px !important;
+		display: flex;
+		flex-direction: column;
+	}
+	&__separator {
+		height: 1px;
+		position: relative;
+		top: 1px;
+		width: 656px;
+		margin-left: auto;
+		display: block;
+		border-top: 1px dashed #5c87db;
+	}
+}
+.price-ticket {
+	width: 190px;
+	border-left: 1px solid #dde3ee;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	&__num {
+		font-weight: 700;
+		font-size: 32px;
+		line-height: 38px;
+		color: #232323;
+	}
+}
+.inner-ticket {
+	&__status {
+		display: inline-block;
+		padding: 6px 24px;
+		background: #8ba5d8;
+		border-radius: 15px 0px;
+		font-weight: 700;
+		font-size: 12px;
+		line-height: 14px;
+		color: #ffffff;
+	}
+}

@@ -1,0 +1,27 @@
+.info-ticket {
+	width: 790px;
+	padding: 15px 20px 30px 23px;
+	display: flex;
+	align-items: flex-start;
+}
+.logo-ticket {
+	margin-right: 50px;
+	text-align: center;
+	margin-top: 10px;
+	&__name {
+		margin-top: 10px;
+		font-size: 18px;
+		line-height: 21px;
+		color: #5c5c5c;
+	}
+}
+
+.actions-info {
+	margin-left: 20px;
+	display: flex;
+	align-items: flex-end;
+	column-gap: 10px;
+	&__btn {
+		background: none;
+	}
+}
